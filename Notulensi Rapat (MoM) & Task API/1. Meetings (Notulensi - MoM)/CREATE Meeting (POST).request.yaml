@@ -1,0 +1,22 @@
+$kind: http-request
+url: http://localhost:3000/api/meetings
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "title": "Rapat Koordinasi Proyek Akhir Backend",
+      "date": "2026-11-20T14:00:00.000Z",
+      "location": "Zoom Meeting",
+      "notulis": "Hanif",
+      "attendees": ["Hanif", "Budi", "Siti"],
+      "agenda": "Pembagian tugas pembuatan REST API",
+      "discussionSummary": "Membahas struktur folder modular Express dan skema database MongoDB.",
+      "decisions": [
+        "Menggunakan Express dan Mongoose",
+        "Deadline pengumpulan hari Minggu"
+      ]
+    }
+order: 1000

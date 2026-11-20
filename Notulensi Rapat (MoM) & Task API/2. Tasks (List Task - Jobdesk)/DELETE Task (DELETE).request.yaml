@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/api/tasks/GANTI_DENGAN_ID_TASK
+method: DELETE
+order: 5000

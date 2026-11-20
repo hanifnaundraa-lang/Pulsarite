@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:3000/api/tasks
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "title": "Membuat Controller dan Route Task",
+      "description": "Implementasi CRUD dengan async/await dan status code 200, 201, 404, 500",
+      "assignee": "Hanif",
+      "status": "In Progress",
+      "priority": "High",
+      "dueDate": "2026-11-25T23:59:00.000Z"
+    }
+order: 1000

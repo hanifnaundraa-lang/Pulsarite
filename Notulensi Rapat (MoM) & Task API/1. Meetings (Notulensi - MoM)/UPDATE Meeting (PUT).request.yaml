@@ -1,0 +1,14 @@
+$kind: http-request
+url: http://localhost:3000/api/meetings/GANTI_DENGAN_ID_MEETING
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "title": "Rapat Koordinasi Proyek Akhir Backend (Revisi)",
+      "location": "Google Meet",
+      "discussionSummary": "Update hasil rapat: struktur folder sudah selesai dibuat."
+    }
+order: 4000
